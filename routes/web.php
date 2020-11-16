@@ -13,6 +13,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
+
+Route::get('/index', function () {
+    return view('user.index');
+});
+
+Route::get('/Login', function () {
+    return view('Login.masuk');
+});
+
+Route::get('/Uang', function () {
+    return view('Uang.kas');
+});
+
+Route::get('/Login2', function () {
+    return view('Login2.masuk2');
+});
+
+Route::get('/Uang2', function () {
+    return view('Uang2.kas2');
+});
+
+Route::get('/Approved', function () {
+    return view('Approved.setuju');
 });

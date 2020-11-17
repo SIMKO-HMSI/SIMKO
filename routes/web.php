@@ -17,26 +17,24 @@ Route::get('/dashboard', function () {
     return view('admin.dashboard');
 });
 
-Route::get('/index', function () {
-    return view('user.index');
+
+
+Route::get('/LoginBiro', function () {
+    return view('Biro.masuk');
 });
 
-Route::get('/Login', function () {
-    return view('Login.masuk');
+Route::get('/UangKasBiro', function () {
+    return view('Biro.kas');
 });
 
-Route::get('/Uang', function () {
-    return view('Uang.kas');
+Route::get('/LoginInti', function () {
+    return view('Inti.masuk2');
 });
 
-Route::get('/Login2', function () {
-    return view('Login2.masuk2');
+Route::get('/UangKasInti', function () {
+    return view('Inti.kas2');
 });
 
-Route::get('/Uang2', function () {
-    return view('Uang2.kas2');
-});
-
-Route::get('/Approved', function () {
-    return view('Approved.setuju');
+Route::get('/ApprovedInti', function () {
+    return view('Inti.setuju');
 });

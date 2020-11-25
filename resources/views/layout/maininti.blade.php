@@ -33,19 +33,19 @@
         <!-- Left navbar links -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="homepage" class="nav-link">Home</a>
+            <a href="homepageinti" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="kas" class="nav-link">Uang Kas Anggota</a>
+            <a href="kasinti" class="nav-link">Uang Kas Anggota</a>
           </li>
           <li class="nav-item">
-            <a href="anggota" class="nav-link">Anggota</a>
+            <a href="anggotainti" class="nav-link">Anggota</a>
           </li>
           <li class="nav-item">
-            <a href="pendapatan" class="nav-link">Pendapatan Lain</a>
+            <a href="pendapataninti" class="nav-link">Pendapatan Lain</a>
           </li>
           <li class="nav-item">
-            <a href="pengeluaran" class="nav-link">Pengeluaran</a>
+            <a href="pengeluaraninti" class="nav-link">Pengeluaran</a>
           </li>
         </ul>
       </div>

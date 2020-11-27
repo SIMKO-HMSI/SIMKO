@@ -19,23 +19,23 @@ Route::get('/', function () {
 
 
 
-Route::get('/LoginBiro', function () {
-    return view('Bendaharabiro.masuk');
+Route::get('/loginbiro', function () {
+    return view('Bendaharabiro.login');
 });
 
 Route::get('/uangkasbiro', function () {
-    return view('Bendaharabiro.kas');
+    return view('Bendaharabiro.Uangkas');
 });
 
-Route::get('/LoginInti', function () {
-    return view('Bendaharainti.masuk2');
+Route::get('/logininti', function () {
+    return view('Bendaharainti.login');
 });
 
-Route::get('/UangKasInti', function () {
-    return view('Bendaharainti.kas2');
+Route::get('/uangkasinti', function () {
+    return view('Bendaharainti.Uangkas');
 });
 
-Route::get('/ApprovedInti', function () {
-    return view('Bendaharainti.setuju');
+Route::get('/approvedinti', function () {
+    return view('Bendaharainti.approved');
 });
 

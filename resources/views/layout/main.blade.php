@@ -81,7 +81,9 @@
     </div>
   </nav>
  
+
   @yield('container')
+
 
   
 <!-- jQuery -->
